@@ -3,7 +3,7 @@ import * as cors from 'cors';
 import { json } from 'express';
 import { db } from './config';
 import { FieldValue } from 'firebase-admin/firestore';
-import { baseOrigin, isProd } from './constants/api';
+import { baseMyOrigin, baseOrigin, isProd } from './constants/api';
 import { admin } from './config';
 import { COMMENTS_OFFSET_LIMIT } from './constants/comments';
 import { getPaginationParams } from './utils/requestUtils';
@@ -386,7 +386,7 @@ export function configureApp() {
   if (isProd) {
     app.use(
       cors({
-        origin: [baseOrigin, 'http://localhost:3000'],
+        origin: [baseOrigin, baseMyOrigin],
       })
     );
     return;

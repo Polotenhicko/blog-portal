@@ -47,7 +47,7 @@ Blog Portal - это портал с блогами, разработанный 
 
 ## Готовый деплой
 
-https://maximumjavascript.github.io/firebase-study/
+[https://polotenhicko.github.io/blog-portal](https://polotenhicko.github.io/blog-portal)
 
 ## Прочее
 

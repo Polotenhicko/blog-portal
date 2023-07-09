@@ -1,6 +1,6 @@
 {
   "homepage": "https://polotenhicko.github.io/blog-portal/",
-  "name": "firebase-study",
+  "name": "blog-portal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
